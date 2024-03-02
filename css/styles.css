@@ -14,6 +14,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--prime-color);
   background-color: #fff;
+  margin: 4px;
 }
 
 ul,
@@ -31,6 +32,10 @@ a {
 h1,
 h2,
 h3 {
+  margin: 0;
+  padding: 0;
+}
+p {
   margin: 0;
   padding: 0;
 }
@@ -213,6 +218,7 @@ address ul {
 .hero {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 h1 {
   margin: 0;
@@ -220,5 +226,53 @@ h1 {
 }
 button {
   margin-top: 48px;
+  margin-bottom: 188px;
   padding: 16px 32px;
+}
+.advantages {
+  margin: 120px 156px;
+}
+.advantages ul {
+  display: flex;
+  gap: 24px;
+}
+.advantages p {
+  padding-top: 8px;
+}
+.our-team h3 {
+  padding-top: 32px;
+}
+.our-team p {
+  padding-top: 8px;
+}
+.our-team h2 {
+  padding-top: 120px;
+}
+.our-team ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 72px;
+  padding-bottom: 120px;
+}
+.our-portfolio {
+  margin: 120px 156px;
+}
+.our-portfolio ul {
+  padding-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 48px;
+  justify-content: center;
+}
+.footer {
+  margin-top: 120px;
+}
+.footer-text {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+}
+.footer p {
+  padding-top: 16px;
 }
