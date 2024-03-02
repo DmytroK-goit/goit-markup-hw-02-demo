@@ -179,14 +179,23 @@ button:hover {
 header {
   display: flex;
   align-items: center;
-  align-content: space-between;
+  justify-content: space-between;
+  align-content: center;
+  padding: 24px 156px;
 }
 header nav {
   display: flex;
   align-items: center;
+  gap: 76px;
 }
 nav ul {
   display: flex;
   flex-direction: row;
+  gap: 40px;
+  padding: 0;
+}
+address ul {
+  display: flex;
+  justify-content: flex-end;
   gap: 40px;
 }
