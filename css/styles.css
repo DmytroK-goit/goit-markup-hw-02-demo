@@ -16,13 +16,23 @@ body {
   background-color: #fff;
 }
 
+ul,
 li {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-
 a {
   color: var(--prime-color);
   text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
 }
 
 /* navigation */
@@ -198,4 +208,17 @@ address ul {
   display: flex;
   justify-content: flex-end;
   gap: 40px;
+}
+/* hero */
+.hero {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding-top: 188px;
+}
+button {
+  margin-top: 48px;
+  padding: 16px 32px;
 }
