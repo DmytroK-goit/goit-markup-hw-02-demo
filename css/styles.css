@@ -177,3 +177,8 @@ button:hover {
     text-transform: uppercase;
     color: #f4f4fd;
 }
+header nav, header address{
+    display: flex;
+
+    align-items: center;
+}
