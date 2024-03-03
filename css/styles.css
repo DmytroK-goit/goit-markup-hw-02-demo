@@ -272,6 +272,8 @@ button {
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 156px;
+  box-sizing: content-box;
+  max-width: 264px;
 }
 .footer p {
   padding-top: 16px;
