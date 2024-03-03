@@ -265,6 +265,16 @@ button {
   gap: 24px 48px;
   justify-content: center;
 }
+.our-portfolio h3 {
+  padding-top: 32px;
+  padding-left: 8px;
+}
+.our-portfolio p {
+  padding-left: 8px;
+  padding-top: 8px;
+  padding-bottom: 32px;
+}
+
 .footer {
   margin-top: 120px;
 }
